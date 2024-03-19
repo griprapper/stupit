@@ -1,0 +1,40 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header header header"
+      "berita- berita- articel articel"
+      "pemain pemain pemain pemain"
+      "foto1 foto2 foto3 foto4"
+      "sejarah sejarah sejarah sejarah"
+      "vidio1 vidio2 vidio3 vidio4";
+  }
+  
+  .header { grid-area: header; }
+  
+  .berita- { grid-area: berita-; }
+  
+  .articel { grid-area: articel; }
+  
+  .pemain { grid-area: pemain; }
+  
+  .foto1 { grid-area: foto1; }
+  
+  .foto2 { grid-area: foto2; }
+  
+  .foto3 { grid-area: foto3; }
+  
+  .foto4 { grid-area: foto4; }
+  
+  .sejarah { grid-area: sejarah; }
+  
+  .vidio1 { grid-area: vidio1; }
+  
+  .vidio2 { grid-area: vidio2; }
+  
+  .vidio3 { grid-area: vidio3; }
+  
+  .vidio4 { grid-area: vidio4; }
+  
